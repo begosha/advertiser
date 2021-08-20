@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # custom apps
-    'webapp'
+    'webapp',
+    # lib apps
+    'phonenumber_field'
 ]
 
 MIDDLEWARE = [
@@ -115,6 +117,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+PHONENUMBER_DB_FORMAT = 'NATIONAL'
+
+PHONENUMBER_DEFAULT_REGION = 'KG'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
