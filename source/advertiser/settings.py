@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # custom apps
     'webapp',
+    'accounts',
     # lib apps
     'phonenumber_field'
 ]
